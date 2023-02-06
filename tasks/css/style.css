@@ -85,8 +85,9 @@ div:hover{}
   
   .two {
     background-color: royalblue;
-  
-    right: 0;
+  position: absolute;
+    right: 25%;
+    left: 25%;
   }
   
   .three {
@@ -99,6 +100,13 @@ div:hover{}
     background-color: slateblue;
     position: fixed;
   }
+  .five {
+    background-color: rgb(14, 216, 24);
+     position: absolute;
+     left:49%;
+     right: 30%;
+  }
+  
   .up-button{
  background-color: aqua;
  color: brown;

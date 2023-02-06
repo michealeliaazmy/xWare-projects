@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: url("../images/snow.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 1000px; 
+  background-size: cover;
+  position: relative;
+}
+
+.lonly{
+    width: 450px;
+    height: 254px;
+    display: inline-block;
+    border: 4px solid black;
+    padding: 20px;
+    position: relative;
+    top: -125px;
+    margin-left: 94px;
+}
+
+
+.container{
+width: 1000px;
+height: 500px;
+}
+p{
+    word-wrap: break-word;
+    height:fit-content;
+}
+.container-two{
+    display: inline-block;
+    width: 450px;
+    height: auto;
+    margin-top: 60px;
+
+}
+.display{
+    border: 4px solid black;
+    margin: 30px;
+    padding: 10px;
+    width: 577px;
+    position: relative;
+    height: 200px;
+}
+.displaytwodivs{
+    display: inline-block;
+    width: 118px;
+    height: 118px;
+    color: red;
+    background-color: aqua;
+}
+
+.displayboth{
+    display: inline-block;
+    width: 419px;
+    height: 148px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+
+}
+.button1{
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 200px;
+    display: inline-block;
+    position: relative;
+    right: 155px;
+}
+  }
+  .button1:hover{
+    background-color: crimson;
+  }
