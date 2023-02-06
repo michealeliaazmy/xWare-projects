@@ -2,15 +2,8 @@
 <html>
     <head>
         <title> task 3</title>   
-            <link rel="stylesheet" href="../"
-        <style>
-            body {
-              background-image: url('../images/back\ ground.jpg ground.jpg') ;
-              background-repeat: no-repeat;
-              background-size: 100% 100%;
-            }
-            </style> 
-
+            <link rel="stylesheet" href="../css/nav.css">
+       
     </head>
     <body>
         <main> <iframe src="https://www.google.com" title="W3Schools Free Online Web Tutorials"></iframe></main>
@@ -19,7 +12,7 @@
         <center> <header>here iam  </header></center>    
         </div>
             
-        <nav>
+        <nav id="pos-stiky">
           
             <ul> 
                 <li> 
@@ -78,5 +71,29 @@
             <audio controls autoplay loop>
                 <source src="../music/sTLX9oAQUpA2.128.mp3" type="audio/mpeg">
             </audio>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <a href="">Go To Middle</a>
     </body>
 </html>

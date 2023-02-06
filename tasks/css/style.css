@@ -36,14 +36,75 @@ div div p{
     position: relative;
     right: 100px;
 }
-div + div{
+div + div{   lazim 2ly b3d el div el 2ola div tanya 
  color: brown;
 }
 
-div ~ div{
+div ~ div{ 2y div gwa el div dya 2srly 3leh 
 color: aqua;
 }
 
 div:active{}
 div:hover{}
  */
+
+ h1 ~ p{
+    color: brown;
+    width: auto;
+    padding: auto;
+    margin: auto;
+ }
+
+ body {
+    margin: 100px auto;
+  }
+  
+  .parent {
+    width: 500px;
+    height: 10000px;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+  }
+  
+  .child {
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  .one {
+    background-color: powderblue;
+
+    position: absolute;
+    right: 0;
+  }
+  
+  .two {
+    background-color: royalblue;
+  
+    right: 0;
+  }
+  
+  .three {
+    background-color: sienna;
+    position: sticky;
+    top: 10px;
+  }
+  
+  .four {
+    background-color: slateblue;
+    position: fixed;
+  }
+  .up-button{
+ background-color: aqua;
+ color: brown;
+ height: 100px;
+ width: 100px;
+ padding: 10px;
+ font-weight:12px;
+ position: fixed;
+  }
