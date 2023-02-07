@@ -5,20 +5,25 @@
     
 }
 body{
-    background-image: url("../images/snow.jpg");
+    background-image: url("pexels-hasan-albari-1229861.jpg");
   background-color: #cccccc;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%; 
   height: 1000px; 
   background-size: cover;
   position: relative;
 }
 
+.container{
+    width: 90%;
+    min-height: 500px;
+    margin: auto;
+    }
 .lonly{
-    width: 450px;
-    height: 254px;
+   width: 30%;
+   min-height: 254px;
     display: inline-block;
-    border: 4px solid black;
     padding: 20px;
     position: relative;
     top: -125px;
@@ -26,38 +31,51 @@ body{
 }
 
 
-.container{
-width: 1000px;
-height: 500px;
-}
+
 p{
     word-wrap: break-word;
     height:fit-content;
+    font-size: larger;
+    color: rgb(8, 92, 247);
+    font-family: sans-serif;
+
+}
+h4{
+    font-size: larger;
+    color: rgb(8, 92, 247);
+    background-color: yellow;
+    font-family: sans-serif;
+ 
 }
 .container-two{
     display: inline-block;
-    width: 450px;
+   width: 60%;
     height: auto;
     margin-top: 60px;
 
 }
 .display{
-    border: 4px solid black;
+    
     margin: 30px;
     padding: 10px;
     width: 577px;
     position: relative;
     height: 200px;
 }
-.displaytwodivs{
+.display-two-divs{
     display: inline-block;
     width: 118px;
     height: 118px;
     color: red;
-    background-color: aqua;
+    background-color: rgb(214, 236, 12);
+    text-align: center;
+    padding: 38px 0;
+}
+.display-two-divs:hover{
+    background-color: antiquewhite;
 }
 
-.displayboth{
+.display-both{
     display: inline-block;
     width: 419px;
     height: 148px;
@@ -82,7 +100,7 @@ p{
     position: relative;
     right: 155px;
 }
-  }
+  
   .button1:hover{
     background-color: crimson;
   }
