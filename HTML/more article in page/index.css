@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.content {
+  display: grid;
+  height: 60vh;
+  grid-template-areas:
+    " div1 div1 div2 div3   "
+    " div4 div5 div5 div3   "
+    " div4 div6 div6 div3   "
+    " div7 div8 div9 div10  ";
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.paragrapth1 {
+  background-color: white;
+  grid-area: div1;
+  border-bottom: 2px solid red;
+}
+.paragrapth2 {
+  background-color: white;
+  grid-area: div2;
+  border-bottom: 2px solid red;
+}
+.paragrapth3 {
+  background-color: rgb(0, 1, 10);
+  grid-area: div3;
+  border-bottom: 2px solid red;
+  color: aliceblue;
+}
+.paragrapth4 {
+  background-color: white;
+  grid-area: div4;
+  border-bottom: 2px solid red;
+}
+.paragrapth5 {
+  background-color: rgb(2, 1, 0);
+  grid-area: div5;
+  border-bottom: 2px solid red;
+  color: aliceblue;
+}
+.paragrapth6 {
+  background-color: white;
+  grid-area: div6;
+  border-bottom: 2px solid red;
+}
+.paragrapth7 {
+  background-color: white;
+  grid-area: div7;
+  border-bottom: 2px solid red;
+}
+.paragrapth8 {
+  background-color: rgb(7, 0, 2);
+  grid-area: div8;
+  border-bottom: 2px solid red;
+  color: aliceblue;
+}
+.paragrapth9 {
+  background-color: white;
+  grid-area: div9;
+  border-bottom: 2px solid red;
+}
+.paragrapth10 {
+  background-color: white;
+  grid-area: div10;
+  border-bottom: 2px solid red;
+}
+.special-font {
+  color: #7d8a9b;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container-holder {
+  padding-left: 21px;
+  padding-top: 23px;
+}
